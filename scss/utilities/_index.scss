@@ -1,0 +1,81 @@
+//Other utilities
+@import "variables";
+@import "mixin";
+@import "extend";
+
+main {
+    flex: 1;
+    border-bottom: $greenColor solid;
+
+    .nameAgency {
+        max-width: 900px;
+        padding: 1.5rem;
+        border-bottom: $greenColor solid;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        h1 {
+            max-width: 400px;
+            width: 80vw;
+            font-weight: lighter;
+            font-size: 1.3em;
+            color: $whiteColor;
+            border-bottom: $greenColor solid;
+
+            @media screen and (min-width: 720px) {
+                font-size: 1.6em;
+            }
+
+        }
+
+        .pVideo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                width: 80vw;
+                padding: 1rem;
+            }
+
+            iframe {
+                width: 80vw;
+                height: 44vh;
+
+                @media screen and (min-width: 720px) {
+                    width: 28rem;
+                    height: 17rem;
+                }
+
+            }
+        }
+    }
+
+    .quiz {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .instructions {
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                padding: 0px 10px;
+                width: 25rem;
+                font-size: larger;
+            }
+
+            button:hover {
+                color: $greenColor;
+                font-weight: bold;
+                background: $bgColor;
+            }
+        }
+    }
+}

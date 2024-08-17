@@ -1,0 +1,27 @@
+.gc {
+    color: #8DC341;
+}
+
+.wc {
+    color: whitesmoke;
+}
+
+.larger {
+    font-size: 1.5rem;
+}
+
+.bc {
+    background: linear-gradient(to bottom, rgb(48, 47, 48), rgb(48, 47, 48, 0.6), rgb(48, 47, 48));
+
+    div {
+        h3 {
+            font-size: 1em;
+        }
+    }
+}
+
+.imgSize {
+    width: 10rem;
+    height: 6rem;
+    object-fit: cover;
+}

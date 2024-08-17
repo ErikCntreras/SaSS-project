@@ -1,0 +1,563 @@
+.gc {
+  color: #8DC341;
+}
+
+.wc {
+  color: whitesmoke;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.bc {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+.bc div h3 {
+  font-size: 1em;
+}
+
+.imgSize {
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.gc {
+  color: #8DC341;
+}
+
+.wc {
+  color: whitesmoke;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.bc {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+.bc div h3 {
+  font-size: 1em;
+}
+
+.imgSize {
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+main {
+  flex: 1;
+  border-bottom: #8DC341 solid;
+}
+main .nameAgency {
+  max-width: 900px;
+  padding: 1.5rem;
+  border-bottom: #8DC341 solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .nameAgency h1 {
+  max-width: 400px;
+  width: 80vw;
+  font-weight: lighter;
+  font-size: 1.3em;
+  color: whitesmoke;
+  border-bottom: #8DC341 solid;
+}
+@media screen and (min-width: 720px) {
+  main .nameAgency h1 {
+    font-size: 1.6em;
+  }
+}
+main .nameAgency .pVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .nameAgency .pVideo p {
+  width: 80vw;
+  padding: 1rem;
+}
+main .nameAgency .pVideo iframe {
+  width: 80vw;
+  height: 44vh;
+}
+@media screen and (min-width: 720px) {
+  main .nameAgency .pVideo iframe {
+    width: 28rem;
+    height: 17rem;
+  }
+}
+main .quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .quiz .instructions {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .quiz .instructions p {
+  padding: 0px 10px;
+  width: 25rem;
+  font-size: larger;
+}
+main .quiz .instructions button:hover {
+  color: #8DC341;
+  font-weight: bold;
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+
+body main .aboutMain {
+  margin: 2rem 2rem 2rem 2rem;
+  max-width: 350px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+body main .aboutMain .mainText {
+  margin-bottom: 3rem;
+}
+body main .aboutMain .mainImages {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+body main .aboutMain .mainImages .images {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+body main .aboutMain .mainImages .images .imageOne {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+@media screen and (min-width: 720px) {
+  body main .aboutMain .mainImages .images .imageOne .imgSize {
+    width: 16rem;
+    height: 12rem;
+  }
+}
+body main .aboutMain .mainImages .images .imageTwo {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+@media screen and (min-width: 720px) {
+  body main .aboutMain .mainImages .images .imageTwo .imgSize {
+    width: 16rem;
+    height: 12rem;
+  }
+}
+body main .aboutMain .mainImages div p {
+  margin-top: 3rem;
+}
+@media screen and (min-width: 720px) {
+  body main .aboutMain {
+    max-width: 800px;
+  }
+}
+
+.gc {
+  color: #8DC341;
+}
+
+.wc {
+  color: whitesmoke;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.bc {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+.bc div h3 {
+  font-size: 1em;
+}
+
+.imgSize {
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.gc {
+  color: #8DC341;
+}
+
+.wc {
+  color: whitesmoke;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.bc {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+.bc div h3 {
+  font-size: 1em;
+}
+
+.imgSize {
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.sections {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 45% 10% 45%;
+  justify-content: center;
+}
+.sections div h2 {
+  font-weight: lighter;
+  font-size: 1.3em;
+}
+.sections .section1 {
+  padding-top: 1rem;
+  display: grid;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.sections .section1 div {
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.sections .section1 div p {
+  font-size: 0.85rem;
+}
+.sections .scribe {
+  margin: 1.5rem 80px 0 80px;
+  border-bottom: #8DC341 solid;
+  border-top: #8DC341 solid;
+}
+.sections .scribe a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: larger;
+}
+.sections .scribe a:hover {
+  color: #8DC341;
+}
+.sections .section2 {
+  margin: 2rem 2rem 2rem;
+}
+.sections .section2 .cardCenter .col .bc .cardImage {
+  height: 15rem;
+}
+.sections .section2 .cardCenter .col .bc .card-body .card-title .cardLink {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.sections .section2 .cardCenter .col .bc .card-body .card-title .cardLink:hover {
+  color: #8DC341;
+}
+@media screen and (min-width: 720px) {
+  .sections .section2 .cardCenter {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 720px) {
+  .sections {
+    max-width: 900px;
+  }
+}
+
+.gc {
+  color: #8DC341;
+}
+
+.wc {
+  color: whitesmoke;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.bc {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+.bc div h3 {
+  font-size: 1em;
+}
+
+.imgSize {
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.gc {
+  color: #8DC341;
+}
+
+.wc {
+  color: whitesmoke;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.bc {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+.bc div h3 {
+  font-size: 1em;
+}
+
+.imgSize {
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+body main p {
+  max-width: 900px;
+  padding: 1.5rem 1.5rem 0rem 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body main section .formStyle {
+  background-color: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+  max-width: 900px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.6em;
+}
+body main section .formStyle button:hover {
+  color: #8DC341;
+  font-weight: bold;
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+
+.gc {
+  color: #8DC341;
+}
+
+.wc {
+  color: whitesmoke;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.bc {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+.bc div h3 {
+  font-size: 1em;
+}
+
+.imgSize {
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.gc {
+  color: #8DC341;
+}
+
+.wc {
+  color: whitesmoke;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.bc {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+.bc div h3 {
+  font-size: 1em;
+}
+
+.imgSize {
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+body main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 1.5rem;
+}
+
+.gc {
+  color: #8DC341;
+}
+
+.wc {
+  color: whitesmoke;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.bc {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+.bc div h3 {
+  font-size: 1em;
+}
+
+.imgSize {
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.gc {
+  color: #8DC341;
+}
+
+.wc {
+  color: whitesmoke;
+}
+
+.larger {
+  font-size: 1.5rem;
+}
+
+.bc {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+}
+.bc div h3 {
+  font-size: 1em;
+}
+
+.imgSize {
+  width: 10rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(48, 47, 48), rgba(48, 47, 48, 0.6), rgb(48, 47, 48));
+  color: whitesmoke;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .generalStyle {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: #8DC341 solid;
+}
+body .generalStyle img {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.2rem 0;
+}
+@media screen and (min-width: 720px) {
+  body .generalStyle img {
+    padding: 0;
+  }
+}
+body .generalStyle .menu ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+body .generalStyle .menu ul li a {
+  justify-content: center;
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: whitesmoke;
+}
+@media screen and (min-width: 720px) {
+  body .generalStyle .menu ul li a {
+    font-size: 1rem;
+  }
+}
+body .generalStyle .menu ul li a:hover {
+  color: #8DC341;
+}
+@media screen and (min-width: 720px) {
+  body .generalStyle .menu ul {
+    gap: 5rem;
+  }
+}
+@media screen and (min-width: 720px) {
+  body .generalStyle {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: larger;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+body .footer {
+  height: 10vh;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5rem;
+}
+@media screen and (min-width: 720px) {
+  body .footer {
+    font-size: 1rem;
+    gap: 15rem;
+  }
+}
+body .footer a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+body .footer a:hover {
+  color: #8DC341;
+}
+
+/*# sourceMappingURL=styles.css.map */

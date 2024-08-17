@@ -1,0 +1,17 @@
+//Other utilities
+@import "variables";
+@import "mixin";
+@import "extend";
+
+body {
+    main {
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            padding-top: 1.5rem;
+        }
+    }
+}

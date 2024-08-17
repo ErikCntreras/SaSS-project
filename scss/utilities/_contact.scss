@@ -1,0 +1,34 @@
+//Other utilities
+@import "variables";
+@import "mixin";
+@import "extend";
+
+body {
+    main {
+        p {
+            max-width: 900px;
+            padding: 1.5rem 1.5rem 0rem 1.5rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        section {
+            .formStyle {
+                background-color: $bgColor;
+                max-width: 900px;
+                padding: 1.5rem;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 0.6em;
+
+                button:hover {
+                    color: $greenColor;
+                    font-weight: bold;
+                    background: $bgColor;
+                }
+            }
+        }
+    }
+}

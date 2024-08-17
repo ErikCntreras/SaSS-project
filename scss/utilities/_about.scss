@@ -1,0 +1,65 @@
+body {
+    main {
+        .aboutMain {
+            margin: 2rem 2rem 2rem 2rem;
+            max-width: 350px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+
+            .mainText {
+                margin-bottom: 3rem;
+            }
+
+            .mainImages {
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                align-items: center;
+
+                .images {
+                    display: flex;
+                    flex-flow: column wrap;
+                    gap: 1rem;
+
+                    .imageOne {
+                        display: flex;
+                        gap: 1rem;
+                        justify-content: center;
+
+                        .imgSize {
+                            @media screen and (min-width: 720px) {
+                                width: 16rem;
+                                height: 12rem;
+                            }
+                        }
+                    }
+
+                    .imageTwo {
+                        display: flex;
+                        gap: 1rem;
+                        justify-content: center;
+
+                        .imgSize {
+                            @media screen and (min-width: 720px) {
+                                width: 16rem;
+                                height: 12rem;
+                            }
+                        }
+                    }
+                }
+
+                div {
+                    p {
+                        margin-top: 3rem;
+                    }
+                }
+            }
+
+            @media screen and (min-width: 720px) {
+                max-width: 800px;
+            }
+        }
+    }
+}

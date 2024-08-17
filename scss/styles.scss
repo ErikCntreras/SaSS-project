@@ -1,0 +1,80 @@
+//Pages import
+@import "utilities/index";
+@import "utilities/about";
+@import "utilities/services";
+@import "utilities/contact";
+@import "utilities/join";
+
+//Other utilities
+@import "utilities/variables";
+@import "utilities/mixin";
+@import "utilities/extend";
+
+//MQTemplate: @media screen and (min-width: 720px) {}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    @include baseFormat;
+
+    //                      HEADER
+    .generalStyle {
+        @include headerFormat;
+
+        img {
+            @include headerImageFormat;
+        }
+
+        .menu {
+            ul {
+                @include headerMenuFormat;
+
+                li {
+                    a {
+                        @include headerMenuFormatA;
+                    }
+
+                    a:hover {
+                        color: $greenColor;
+                    }
+                }
+
+                @media screen and (min-width: 720px) {
+                    gap: 5rem;
+                }
+
+            }
+        }
+
+        @media screen and (min-width: 720px) {
+            padding-right: 2rem;
+            padding-left: 2rem;
+            font-size: larger;
+            justify-content: center;
+            gap: 2rem;
+        }
+    }
+
+    //                      FOOTER
+
+    .footer {
+        @include footerFormat;
+
+        a {
+            @include footerFormatA;
+        }
+
+        a:hover {
+            color: $greenColor;
+        }
+    }
+}
